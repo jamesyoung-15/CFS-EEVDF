@@ -59,3 +59,7 @@ I used kernel 6.5 for CFS and 6.6 for EEVDF. See [here](./setup/compile-kernel.m
 This means that some result differences could be potentially because of other patches unrelated to the change in CPU scheduler. However, based on the changes in [6.6](https://kernelnewbies.org/Linux_6.6), I believe most disrepancies should be because of the new CPU scheduler. I tried to keep kernel versions close as possible for this reason.
 
 For a more scientific experiment, a better way would have been to build the kernel only with changes to the scheduler. Unfortunately, I don't have the skills for that.
+
+## Todo
+
+Instead of comparing different kernel versions, should instead build kernels with relevant schedulers. Also should benchmark on more applications, different hardware.
