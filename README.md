@@ -1,6 +1,8 @@
 # CFS vs EEVDF
 
-Some benchmarks w/ Phoronix Test Suite for trying to compare CFS and EEVDF CPU schedulers on Linux. Done just for reference not a fully comprehensive/scientific test (see [notes](#notes)).
+Some benchmarks w/ Phoronix Test Suite for trying to compare CFS and EEVDF CPU schedulers on Linux. Jump to results [here](#results).
+
+Done just for reference not a fully comprehensive/scientific test (see [notes](#notes)).
 
 ## Background
 
