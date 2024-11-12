@@ -1,0 +1,33 @@
+eevdf-vs-cfs
+Kernel 6.6 vs 6.5, looking for potential difference in CPU scheduler performance (CFS 6.5 vs EEVDF 6.6)
+
+ ,,"6.5-CFS-Hackbench","6.6-EEVDF-Hackbench","6.5-CFS-7zip","6.6-EEVDF-7zip","6.5-CFS-Nginx","6.5-CFS-CRay","6.6-EEVDF-Nginx","6.6-EEVDF-CRay","6.5-CFS-Redis","6.6-EEVDF-Redis","6.5-CFS-FFMPEG","6.6-EEVDF-FFMPEG"
+Processor,,AMD Ryzen 7 4800H @ 2.90GHz (8 Cores / 16 Threads),AMD Ryzen 7 4800H @ 2.90GHz (8 Cores / 16 Threads),AMD Ryzen 7 4800H @ 2.90GHz (8 Cores / 16 Threads),AMD Ryzen 7 4800H @ 2.90GHz (8 Cores / 16 Threads),AMD Ryzen 7 4800H @ 2.90GHz (8 Cores / 16 Threads),AMD Ryzen 7 4800H @ 2.90GHz (8 Cores / 16 Threads),AMD Ryzen 7 4800H @ 2.90GHz (8 Cores / 16 Threads),AMD Ryzen 7 4800H @ 2.90GHz (8 Cores / 16 Threads),AMD Ryzen 7 4800H @ 2.90GHz (8 Cores / 16 Threads),AMD Ryzen 7 4800H @ 2.90GHz (8 Cores / 16 Threads),AMD Ryzen 7 4800H @ 2.90GHz (8 Cores / 16 Threads),AMD Ryzen 7 4800H @ 2.90GHz (8 Cores / 16 Threads)
+Motherboard,,LENOVO LNVNB161216 (FSCN18WW BIOS),LENOVO LNVNB161216 (FSCN18WW BIOS),LENOVO LNVNB161216 (FSCN18WW BIOS),LENOVO LNVNB161216 (FSCN18WW BIOS),LENOVO LNVNB161216 (FSCN18WW BIOS),LENOVO LNVNB161216 (FSCN18WW BIOS),LENOVO LNVNB161216 (FSCN18WW BIOS),LENOVO LNVNB161216 (FSCN18WW BIOS),LENOVO LNVNB161216 (FSCN18WW BIOS),LENOVO LNVNB161216 (FSCN18WW BIOS),LENOVO LNVNB161216 (FSCN18WW BIOS),LENOVO LNVNB161216 (FSCN18WW BIOS)
+Chipset,,AMD Renoir/Cezanne,AMD Renoir/Cezanne,AMD Renoir/Cezanne,AMD Renoir/Cezanne,AMD Renoir/Cezanne,AMD Renoir/Cezanne,AMD Renoir/Cezanne,AMD Renoir/Cezanne,AMD Renoir/Cezanne,AMD Renoir/Cezanne,AMD Renoir/Cezanne,AMD Renoir/Cezanne
+Memory,,16GB,16GB,16GB,16GB,16GB,16GB,16GB,16GB,16GB,16GB,16GB,16GB
+Disk,,1024GB SK hynix HFS001TD9TNI-L2A0B,1024GB SK hynix HFS001TD9TNI-L2A0B,1024GB SK hynix HFS001TD9TNI-L2A0B,1024GB SK hynix HFS001TD9TNI-L2A0B,1024GB SK hynix HFS001TD9TNI-L2A0B,1024GB SK hynix HFS001TD9TNI-L2A0B,1024GB SK hynix HFS001TD9TNI-L2A0B,1024GB SK hynix HFS001TD9TNI-L2A0B,1024GB SK hynix HFS001TD9TNI-L2A0B,1024GB SK hynix HFS001TD9TNI-L2A0B,1024GB SK hynix HFS001TD9TNI-L2A0B,1024GB SK hynix HFS001TD9TNI-L2A0B
+Graphics,,NVIDIA GeForce RTX 2060 Mobile,NVIDIA GeForce RTX 2060 Mobile,NVIDIA GeForce RTX 2060 Mobile,NVIDIA GeForce RTX 2060 Mobile,NVIDIA GeForce RTX 2060 Mobile,NVIDIA GeForce RTX 2060 Mobile,NVIDIA GeForce RTX 2060 Mobile,NVIDIA GeForce RTX 2060 Mobile,NVIDIA GeForce RTX 2060 Mobile,NVIDIA GeForce RTX 2060 Mobile,NVIDIA GeForce RTX 2060 Mobile,NVIDIA GeForce RTX 2060 Mobile
+Audio,,NVIDIA TU106 HD Audio,NVIDIA TU106 HD Audio,NVIDIA TU106 HD Audio,NVIDIA TU106 HD Audio,NVIDIA TU106 HD Audio,NVIDIA TU106 HD Audio,NVIDIA TU106 HD Audio,NVIDIA TU106 HD Audio,NVIDIA TU106 HD Audio,NVIDIA TU106 HD Audio,NVIDIA TU106 HD Audio,NVIDIA TU106 HD Audio
+Network,,Realtek RTL8111/8168/8211/8411 + Intel Wi-Fi 6 AX200,Realtek RTL8111/8168/8211/8411 + Intel Wi-Fi 6 AX200,Realtek RTL8111/8168/8211/8411 + Intel Wi-Fi 6 AX200,Realtek RTL8111/8168/8211/8411 + Intel Wi-Fi 6 AX200,Realtek RTL8111/8168/8211/8411 + Intel Wi-Fi 6 AX200,Realtek RTL8111/8168/8211/8411 + Intel Wi-Fi 6 AX200,Realtek RTL8111/8168/8211/8411 + Intel Wi-Fi 6 AX200,Realtek RTL8111/8168/8211/8411 + Intel Wi-Fi 6 AX200,Realtek RTL8111/8168/8211/8411 + Intel Wi-Fi 6 AX200,Realtek RTL8111/8168/8211/8411 + Intel Wi-Fi 6 AX200,Realtek RTL8111/8168/8211/8411 + Intel Wi-Fi 6 AX200,Realtek RTL8111/8168/8211/8411 + Intel Wi-Fi 6 AX200
+OS,,Arch Linux,Arch Linux,Arch Linux,Arch Linux,Arch Linux,Arch Linux,Arch Linux,Arch Linux,Arch Linux,Arch Linux,Arch Linux,Arch Linux
+Kernel,,6.5.0CFS (x86_64),6.6.0EEVDF (x86_64),6.5.0CFS (x86_64),6.6.0EEVDF (x86_64),6.5.0CFS (x86_64),6.5.0CFS (x86_64),6.6.0EEVDF (x86_64),6.6.0EEVDF (x86_64),6.5.0CFS (x86_64),6.6.0EEVDF (x86_64),6.5.0CFS (x86_64),6.6.0EEVDF (x86_64)
+Compiler,,GCC 14.2.1 20240910,GCC 14.2.1 20240910,GCC 14.2.1 20240910,GCC 14.2.1 20240910,GCC 14.2.1 20240910,GCC 14.2.1 20240910,GCC 14.2.1 20240910,GCC 14.2.1 20240910,GCC 14.2.1 20240910,GCC 14.2.1 20240910,GCC 14.2.1 20240910,GCC 14.2.1 20240910
+File-System,,ext4,ext4,ext4,ext4,ext4,ext4,ext4,ext4,ext4,ext4,ext4,ext4
+Screen Resolution,,1920x1080,1920x1080,1920x1080,1920x1080,1920x1080,1920x1080,1920x1080,1920x1080,1920x1080,1920x1080,1920x1080,1920x1080
+
+ ,,"6.5-CFS-Hackbench","6.6-EEVDF-Hackbench","6.5-CFS-7zip","6.6-EEVDF-7zip","6.5-CFS-Nginx","6.5-CFS-CRay","6.6-EEVDF-Nginx","6.6-EEVDF-CRay","6.5-CFS-Redis","6.6-EEVDF-Redis","6.5-CFS-FFMPEG","6.6-EEVDF-FFMPEG"
+"Hackbench - Count: 16 - Type: Thread (sec)",LIB,77.274,66.786,,,,,,,,,,
+"Hackbench - Count: 16 - Type: Process (sec)",LIB,74.578,65.466,,,,,,,,,,
+"Hackbench - Count: 8 - Type: Thread (sec)",LIB,43.720,33.532,,,,,,,,,,
+"Hackbench - Count: 8 - Type: Process (sec)",LIB,32.897,33.073,,,,,,,,,,
+"nginx - Connections: 500 (Reqs/sec)",HIB,,,,,30063.74,,35854.86,,,,,
+"nginx - Connections: 1000 (Reqs/sec)",HIB,,,,,27980.08,,31478.76,,,,,
+"C-Ray - Resolution: 1080p - Rays Per Pixel: 16 (sec)",LIB,,,,,,103.942,,103.421,,,,
+"FFmpeg - Encoder: libx264 - Scenario: Video On Demand (FPS)",HIB,,,,,,,,,,,44.42,44.56
+"FFmpeg - Encoder: libx265 - Scenario: Video On Demand (FPS)",HIB,,,,,,,,,,,36.38,36.37
+"Redis - Test: GET - Parallel Connections: 1000 (Reqs/sec)",HIB,,,,,,,,,350437.16,349725.92,,
+"Redis - Test: SET - Parallel Connections: 1000 (Reqs/sec)",HIB,,,,,,,,,328505.15,328936.69,,
+"7-Zip Compression - Test: Compression Rating (MIPS)",HIB,,,56833,56906,,,,,,,,
+"7-Zip Compression - Test: Decompression Rating (MIPS)",HIB,,,58726,59149,,,,,,,,
+

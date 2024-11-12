@@ -1,0 +1,81 @@
+eevdf-vs-cfs,
+
+"Hackbench  - Count: 16 - Type: Thread",
+Lower Results Are Better
+
+"6.5-CFS-Hackbench",76.295,77.168,78.358
+"6.6-EEVDF-Hackbench",66.608,66.932,66.817
+
+"Hackbench  - Count: 16 - Type: Process",
+Lower Results Are Better
+
+"6.5-CFS-Hackbench",74.528,75.503,73.703
+"6.6-EEVDF-Hackbench",65.413,65.648,65.337
+
+"Hackbench  - Count: 8 - Type: Thread",
+Lower Results Are Better
+
+"6.5-CFS-Hackbench",42.706,43.936,44.519
+"6.6-EEVDF-Hackbench",33.452,33.531,33.613
+
+"Hackbench  - Count: 8 - Type: Process",
+Lower Results Are Better
+
+"6.5-CFS-Hackbench",32.771,32.974,32.947
+"6.6-EEVDF-Hackbench",32.962,33.081,33.176
+
+"nginx 1.23.2 - Connections: 500",
+Higher Results Are Better
+
+"6.5-CFS-Nginx",30164.21,29959.97,30067.04
+"6.6-EEVDF-Nginx",35675,35588.56,36301.01
+
+"nginx 1.23.2 - Connections: 1000",
+Higher Results Are Better
+
+"6.5-CFS-Nginx",27719.97,28075.51,28144.77
+"6.6-EEVDF-Nginx",31459.95,31426.54,31549.78
+
+"C-Ray 2.0 - Resolution: 1080p - Rays Per Pixel: 16",
+Lower Results Are Better
+
+"6.5-CFS-CRay",103.57,103.357,104.899
+"6.6-EEVDF-CRay",103.268,103.249,103.746
+
+"FFmpeg 7.0 - Encoder: libx264 - Scenario: Video On Demand",
+Higher Results Are Better
+
+"6.5-CFS-FFMPEG",44.435306132342,44.389741219855,44.428600345207
+"6.6-EEVDF-FFMPEG",44.517538758212,44.562212766435,44.58626448422
+
+"FFmpeg 7.0 - Encoder: libx265 - Scenario: Video On Demand",
+Higher Results Are Better
+
+"6.5-CFS-FFMPEG",36.27946473805,36.373211456565,36.481204073856
+"6.6-EEVDF-FFMPEG",36.382962061819,36.298671156354,36.436385172348
+
+"Redis 7.0.4 - Test: GET - Parallel Connections: 1000",
+Higher Results Are Better
+
+"6.5-CFS-Redis",350956.25,349786.19,350569.03
+"6.6-EEVDF-Redis",350245.16,349774.72,349157.88
+
+"Redis 7.0.4 - Test: SET - Parallel Connections: 1000",
+Higher Results Are Better
+
+"6.5-CFS-Redis",328728.69,328398.78,328387.97
+"6.6-EEVDF-Redis",327592.28,329656.56,329561.22
+
+"7-Zip Compression 24.05 - Test: Compression Rating",
+Higher Results Are Better
+
+"6.5-CFS-7zip",56654,56995,56849
+"6.6-EEVDF-7zip",56605,57137,56977
+
+"7-Zip Compression 24.05 - Test: Decompression Rating",
+Higher Results Are Better
+
+"6.5-CFS-7zip",59021,58581,58577
+"6.6-EEVDF-7zip",59621,59017,58809
+
+

@@ -1,0 +1,14 @@
+Benchmark Type,Kernel 6.5 (CFS),Kernel 6.6 (EEVDF),Units
+Hackbench 8 Thread (Lower is Better),43.72,33.53,sec
+Hackbench 16 Thread (Lower is Better),77.27,66.79,sec
+Hackbench 8 Process (Lower is Better),32.9,33.07,sec
+Hackbench 16 Process (Lower is Better),74.58,65.47,sec
+Nginx 500 Connections (Higher is Better),30064,35855,reqs/sec
+Nginx 1000 Connections (Higher is Better),27980,31479,reqs/sec
+7-Zip Compression (Higher is Better),56833,56906,MIPS
+7-Zip Decompression (Higher is Better),58726,59149,MIPS
+Ffmpeg libx264 Video On Demand (Higher is Better),44.42,44.56,FPS
+Ffmpeg libx265 Video On Demand (Higher is Better),36.38,36.37,FPS
+Redis Get 1000 (Higher is Better),350437,349726,reqs/sec
+Redis Set 1000 (Higher is Better),328505,328937,reqs/sec
+C-Ray 1080p (Lower is Better),103.94,103.42,sec
